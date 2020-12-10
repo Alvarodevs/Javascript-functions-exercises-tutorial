@@ -1,6 +1,8 @@
 // Your code goes here:
+function renderPerson (name, DOB, eyecolour, age, gender) {
 
-
+    return name + " is a " + age + " years old " + gender + " born on " + DOB + " with " + eyecolour + " eyes"
+}
 
   ///*** Do not edit below this line ****/
   console.log(renderPerson('Bob', '05/22/1983', 'green', 23, 'male'));
